@@ -21,6 +21,7 @@ from multiprocessing.pool import ThreadPool, Pool
 
 import threading
 
+print("Start")
 
 chrome_options = Options()
 prefs = {'profile.managed_default_content_settings.images': 2} #hide images - 2 is the code for that option
